@@ -12,15 +12,16 @@ class GhDash < Formula
   depends_on "go" => :build
 
   def install
+    short_commit = revision[0, 7]
     ldflags = %W[
       -s -w
       -X github.com/dlvhdr/gh-dash/v4/cmd.Version=#{version}
-      -X github.com/dlvhdr/gh-dash/v4/cmd.Commit=#{Utils.git_short_commit(revision)}
+      -X github.com/dlvhdr/gh-dash/v4/cmd.Commit=#{short_commit}
       -X github.com/dlvhdr/gh-dash/v4/cmd.Date=#{Time.now.utc.iso8601}
       -X github.com/dlvhdr/gh-dash/v4/cmd.BuiltBy=homebrew
-    ]
+    ].join(" ")
 
-    system "go", "build", *std_go_args(ldflags: ldflags)
+    system "go", "build", *std_go_args(ldflags:)
   end
 
   test do
