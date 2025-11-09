@@ -3,8 +3,8 @@ class Gitui < Formula
   homepage "https://github.com/robbowland/gitui"
   url "https://github.com/robbowland/gitui.git",
       branch: "master",
-      revision: "31a5d928b23d02bbd7a0db5f10c5a442154c8505"
-  version "0.27.0-rb3"
+      revision: "9ef93e51d52025d0c7801d81cb4e92893aa4755c"
+  version "0.27.0-rb4"
   license "MIT"
 
   depends_on "cmake" => :build # for libz-ng-sys
