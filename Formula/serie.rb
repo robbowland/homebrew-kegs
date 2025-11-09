@@ -3,8 +3,8 @@ class Serie < Formula
   homepage "https://github.com/robbowland/serie"
   url "https://github.com/robbowland/serie.git",
       branch: "master",
-      revision: "42637ac59348213a4837996a8e9e73816c61baa7"
-  version "0.5.3-rb1"
+      revision: "f3ed1d73c5c7dc2892c0f82d08f8dc245130bef2"
+  version "0.5.3-rb2"
   license "MIT"
 
   depends_on "rust" => :build
