@@ -2,8 +2,8 @@ class Weaver < Formula
   desc "Coding agents side by side in tmux: pick up whichever thread needs you"
   homepage "https://github.com/robbowland/weaver"
   url "https://github.com/robbowland/weaver.git",
-      tag:      "v0.1.0",
-      revision: "74d300d71c57c641d40345c0ac6e7146b9df223b"
+      tag:      "v0.2.0",
+      revision: "5dec12792c7e50820e241006f96abe6b617e0055"
   license "MIT"
 
   depends_on "go" => :build
@@ -23,9 +23,9 @@ class Weaver < Formula
     <<~EOS
       Run `wvr` to start weaver's tmux session. It sets itself up as it
       starts: Claude Code's (and Codex's) hooks run it, and the Neovim
-      plugin its reviews need is fetched; `wvr setup --dry-run` shows how.
-      For the GITHUB view, sign gh in (`gh auth login`); for LINEAR,
-      linear-tui (`linear-tui auth login`).
+      plugin its reviews need is fetched. A view not signed in yet (GITHUB,
+      LINEAR) shows how, and signs in on one key.
+      `wvr doctor` says what is set up and what is left.
     EOS
   end
 
