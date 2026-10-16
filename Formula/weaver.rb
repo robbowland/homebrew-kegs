@@ -2,8 +2,8 @@ class Weaver < Formula
   desc "Coding agents side by side in tmux: pick up whichever thread needs you"
   homepage "https://github.com/robbowland/weaver"
   url "https://github.com/robbowland/weaver.git",
-      tag:      "v0.4.0",
-      revision: "43ee72c4f3ddf91587f0b254781bd72a944b5e60"
+      tag:      "v0.5.0",
+      revision: "250358ac778dd9ac1facfbcff646cd4e8ce323da"
   license "MIT"
   head "https://github.com/robbowland/weaver.git", branch: "main"
 
@@ -11,7 +11,6 @@ class Weaver < Formula
   depends_on "fzf"
   depends_on "gh"
   depends_on "neovim"
-  depends_on "robbowland/kegs/linear-tui"
   depends_on "tmux"
   depends_on "worktrunk"
 
