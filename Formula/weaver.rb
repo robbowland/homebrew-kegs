@@ -2,8 +2,8 @@ class Weaver < Formula
   desc "Coding agents side by side in tmux: pick up whichever thread needs you"
   homepage "https://github.com/robbowland/weaver"
   url "https://github.com/robbowland/weaver.git",
-      tag:      "v0.2.1",
-      revision: "7a6545fc46fb309ba3f6f91c9118e6188a7c50b4"
+      tag:      "v0.3.0",
+      revision: "e5b5eec6171fc10aa2cb4c471c492ac045a51c61"
   license "MIT"
 
   depends_on "go" => :build
@@ -25,7 +25,7 @@ class Weaver < Formula
       starts: Claude Code's (and Codex's) hooks run it, and the Neovim
       plugin its reviews need is fetched. A view not signed in yet (GITHUB,
       LINEAR) shows how, and signs in on one key.
-      `wvr doctor` says what is set up and what is left.
+      `wvr doctor` says what is set up and what is left; `--fix` does it.
     EOS
   end
 
