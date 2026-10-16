@@ -5,8 +5,8 @@ class GhDash < Formula
   homepage "https://github.com/robbowland/gh-dash"
   url "https://github.com/robbowland/gh-dash.git",
       branch: "main",
-      revision: "36568c211c2a4b85a65ac47407f27202eb288474"
-  version "4.0.0-rb2"
+      revision: "32671c5d4030186c91e065b3db7ba47b515d361b"
+  version "4.26.1-rb1"
   license "MIT"
 
   depends_on "go" => :build
