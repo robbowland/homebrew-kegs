@@ -5,6 +5,7 @@ class Weaver < Formula
       tag:      "v0.3.0",
       revision: "e5b5eec6171fc10aa2cb4c471c492ac045a51c61"
   license "MIT"
+  head "https://github.com/robbowland/weaver.git", branch: "main"
 
   depends_on "go" => :build
   depends_on "fzf"
