@@ -2,8 +2,8 @@ class Weaver < Formula
   desc "Coding agents side by side in tmux: pick up whichever thread needs you"
   homepage "https://github.com/robbowland/weaver"
   url "https://github.com/robbowland/weaver.git",
-      tag:      "v0.8.3",
-      revision: "7cde96583ec1a92fa91159feacf3de4ca921ce82"
+      tag:      "v0.8.4",
+      revision: "52c8ee85a2d894bd118a4949e44d90d132ce75be"
   license "MIT"
   head "https://github.com/robbowland/weaver.git", branch: "main"
 
