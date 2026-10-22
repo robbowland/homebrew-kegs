@@ -3,7 +3,7 @@ class Weaver < Formula
   homepage "https://github.com/robbowland/weaver"
   url "https://github.com/robbowland/weaver.git",
       tag:      "v0.9.3",
-      revision: "2558ce38b0c71e48e535ab8dc071ddf8804ef59b"
+      revision: "bf4d334a371df4c18f2a904f15ec3e0a97fc4264"
   license "MIT"
   head "https://github.com/robbowland/weaver.git", branch: "main"
 
