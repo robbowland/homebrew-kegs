@@ -2,8 +2,8 @@ class Weaver < Formula
   desc "Coding agents side by side in Rex: pick up whichever thread needs you"
   homepage "https://github.com/robbowland/weaver"
   url "https://github.com/robbowland/weaver.git",
-      tag:      "v0.13.1",
-      revision: "31f74489964ae80c23b566e946433f8ea7c2601d"
+      tag:      "v0.13.2",
+      revision: "8f677d7edb3ae392f78cdb50213d376252448033"
   license "MIT"
   head "https://github.com/robbowland/weaver.git", branch: "main"
 
@@ -11,7 +11,7 @@ class Weaver < Formula
   depends_on "fzf"
   depends_on "gh"
   depends_on "neovim"
-  depends_on "tuicr"
+  depends_on "robbowland/kegs/tuicr"
   depends_on "worktrunk"
 
   def install
