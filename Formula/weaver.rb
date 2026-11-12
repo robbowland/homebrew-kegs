@@ -1,9 +1,9 @@
 class Weaver < Formula
-  desc "Coding agents side by side in tmux: pick up whichever thread needs you"
+  desc "Coding agents side by side in Rex: pick up whichever thread needs you"
   homepage "https://github.com/robbowland/weaver"
   url "https://github.com/robbowland/weaver.git",
-      tag:      "v0.12.2",
-      revision: "61dca9829e24494bde116dcad6c634dc6c24c8a6"
+      tag:      "v0.13.0",
+      revision: "f58e87bca224aa729392e9d3b386c5d6cc15444d"
   license "MIT"
   head "https://github.com/robbowland/weaver.git", branch: "main"
 
@@ -11,7 +11,7 @@ class Weaver < Formula
   depends_on "fzf"
   depends_on "gh"
   depends_on "neovim"
-  depends_on "tmux"
+  depends_on "tuicr"
   depends_on "worktrunk"
 
   def install
@@ -20,10 +20,10 @@ class Weaver < Formula
 
   def caveats
     <<~EOS
-      Run `wvr` to start weaver's tmux session. It sets itself up as it
-      starts: Claude Code's (and Codex's) hooks run it, and the Neovim
-      plugin its reviews need is fetched. A view not signed in yet (GITHUB,
-      LINEAR) shows how, and signs in on one key.
+      Run `wvr` in Rex to start weaver. It sets itself up as it starts:
+      Claude Code's hooks run it, and it installs its workflow skill for
+      Claude Code and a theme for tuicr, its review panel. A view not signed
+      in yet (GITHUB, LINEAR) shows how, and signs in on one key.
       `wvr doctor` says what is set up and what is left; `--fix` does it.
     EOS
   end
