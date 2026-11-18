@@ -3,8 +3,8 @@ class Tuicr < Formula
   homepage "https://github.com/robbowland/tuicr"
   url "https://github.com/robbowland/tuicr.git",
       branch:   "rb",
-      revision: "0c4ec84998520bd2f8006b6a5061840e20ec4779"
-  version "0.28.0-rb1"
+      revision: "961df118fffe21d7cd429d5e50bc456e2c76ea32"
+  version "0.28.0-rb2"
   license "MIT"
 
   depends_on "rust" => :build
