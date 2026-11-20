@@ -2,8 +2,8 @@ class Weaver < Formula
   desc "Coding agents side by side in Rex: pick up whichever thread needs you"
   homepage "https://github.com/robbowland/weaver"
   url "https://github.com/robbowland/weaver.git",
-      tag:      "v0.16.0",
-      revision: "6604aad2af56c5b7e6191c9f260ce931e6d26b9c"
+      tag:      "v0.16.1",
+      revision: "7b54314ff310dcd2a4f45d01ffde4fbe6b6f4564"
   license "MIT"
   head "https://github.com/robbowland/weaver.git", branch: "main"
 
